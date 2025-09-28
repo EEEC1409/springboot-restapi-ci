@@ -373,3 +373,6 @@
 2025-09-28T16:56:27.273-05:00  INFO 19224 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-09-28T16:56:27.358-05:00  INFO 19224 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-09-28T16:56:27.847-05:00  INFO 19224 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:56:28.681-05:00  WARN 19224 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:56:29.246-05:00  INFO 19224 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-09-28T16:56:29.261-05:00  INFO 19224 --- [client-service] [main] c.t.c.ClientServiceApplication           : Started ClientServiceApplication in 7.767 seconds (process running for 8.496)
