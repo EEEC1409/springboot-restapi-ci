@@ -1,0 +1,289 @@
+2025-09-28T16:06:25.757-05:00  INFO 16728 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 16728 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:06:25.765-05:00  INFO 16728 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:06:26.969-05:00  INFO 16728 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:06:27.090-05:00  INFO 16728 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:06:27.831-05:00  INFO 16728 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:06:27.970-05:00  INFO 16728 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:06:28.046-05:00  INFO 16728 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:06:28.750-05:00  INFO 16728 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:06:28.812-05:00  INFO 16728 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:06:29.240-05:00  INFO 16728 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30dd00b6
+2025-09-28T16:06:29.242-05:00  INFO 16728 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:06:29.433-05:00  INFO 16728 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:06:30.916-05:00  INFO 16728 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:06:31.036-05:00  INFO 16728 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:06:31.490-05:00  INFO 16728 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:06:32.392-05:00  WARN 16728 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:06:32.977-05:00  INFO 16728 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 7.786 seconds (process running for 9.469)
+2025-09-28T16:06:33.692-05:00  INFO 16728 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:06:33.696-05:00  INFO 16728 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:06:33.702-05:00  INFO 16728 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:07:31.980-05:00  INFO 3112 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 3112 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:07:31.982-05:00  INFO 3112 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:07:32.813-05:00  INFO 3112 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:07:32.900-05:00  INFO 3112 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:07:33.424-05:00  INFO 3112 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:07:33.493-05:00  INFO 3112 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:07:33.548-05:00  INFO 3112 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:07:34.005-05:00  INFO 3112 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:07:34.051-05:00  INFO 3112 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:07:34.295-05:00  INFO 3112 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58e03769
+2025-09-28T16:07:34.298-05:00  INFO 3112 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:07:34.388-05:00  INFO 3112 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:07:35.438-05:00  INFO 3112 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:07:35.484-05:00  INFO 3112 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:07:35.817-05:00  INFO 3112 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:07:36.527-05:00  WARN 3112 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:07:36.997-05:00  INFO 3112 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 5.456 seconds (process running for 6.572)
+2025-09-28T16:07:37.577-05:00  INFO 3112 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:07:37.584-05:00  INFO 3112 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:07:37.598-05:00  INFO 3112 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:09:03.809-05:00  INFO 12564 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 12564 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:09:03.811-05:00  INFO 12564 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:09:04.497-05:00  INFO 12564 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:09:04.567-05:00  INFO 12564 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:09:05.000-05:00  INFO 12564 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:09:05.060-05:00  INFO 12564 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:09:05.102-05:00  INFO 12564 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:09:05.479-05:00  INFO 12564 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:09:05.529-05:00  INFO 12564 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:09:05.732-05:00  INFO 12564 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58739e5e
+2025-09-28T16:09:05.734-05:00  INFO 12564 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:09:05.807-05:00  INFO 12564 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:09:06.748-05:00  INFO 12564 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:09:06.797-05:00  INFO 12564 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:09:07.076-05:00  INFO 12564 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:09:07.704-05:00  WARN 12564 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:09:08.102-05:00  INFO 12564 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 4.644 seconds (process running for 5.61)
+2025-09-28T16:09:08.585-05:00  INFO 12564 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:09:08.590-05:00  INFO 12564 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:09:08.603-05:00  INFO 12564 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:09:10.713-05:00  INFO 15376 --- [client-service] [main] c.t.c.ClientServiceApplication           : Starting ClientServiceApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 15376 (C:\Ejemplo-App\CursoJava\client-service\client-service\target\client-service-0.0.1-SNAPSHOT.jar started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:09:10.717-05:00  INFO 15376 --- [client-service] [main] c.t.c.ClientServiceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:09:11.609-05:00  INFO 15376 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:09:11.690-05:00  INFO 15376 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:09:12.367-05:00  INFO 15376 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-09-28T16:09:12.386-05:00  INFO 15376 --- [client-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-28T16:09:12.387-05:00  INFO 15376 --- [client-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-28T16:09:12.427-05:00  INFO 15376 --- [client-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-28T16:09:12.427-05:00  INFO 15376 --- [client-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1637 ms
+2025-09-28T16:09:12.641-05:00  INFO 15376 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:09:12.716-05:00  INFO 15376 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:09:12.763-05:00  INFO 15376 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:09:13.168-05:00  INFO 15376 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:09:13.216-05:00  INFO 15376 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:09:13.470-05:00  INFO 15376 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54567b05
+2025-09-28T16:09:13.473-05:00  INFO 15376 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:09:13.574-05:00  INFO 15376 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:09:14.642-05:00  INFO 15376 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:09:14.684-05:00  INFO 15376 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:09:15.026-05:00  INFO 15376 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:09:15.649-05:00  WARN 15376 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:09:16.092-05:00  INFO 15376 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-09-28T16:09:16.104-05:00  INFO 15376 --- [client-service] [main] c.t.c.ClientServiceApplication           : Started ClientServiceApplication in 6.048 seconds (process running for 6.613)
+2025-09-28T16:10:22.394-05:00  INFO 15376 --- [client-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-28T16:10:22.705-05:00  INFO 15376 --- [client-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-28T16:10:22.708-05:00  INFO 15376 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:10:22.710-05:00  INFO 15376 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:10:22.713-05:00  INFO 15376 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:10:32.044-05:00  INFO 15844 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 15844 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:10:32.047-05:00  INFO 15844 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:10:33.066-05:00  INFO 15844 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:10:33.173-05:00  INFO 15844 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:10:33.840-05:00  INFO 15844 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:10:33.941-05:00  INFO 15844 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:10:34.017-05:00  INFO 15844 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:10:34.633-05:00  INFO 15844 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:10:34.689-05:00  INFO 15844 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:10:34.986-05:00  INFO 15844 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2af9a5ef
+2025-09-28T16:10:34.989-05:00  INFO 15844 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:10:35.093-05:00  INFO 15844 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:10:36.625-05:00  INFO 15844 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:10:36.694-05:00  INFO 15844 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:10:37.145-05:00  INFO 15844 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:10:38.075-05:00  WARN 15844 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:10:38.663-05:00  INFO 15844 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 7.144 seconds (process running for 8.663)
+2025-09-28T16:10:39.439-05:00  INFO 15844 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:10:39.442-05:00  INFO 15844 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:10:39.454-05:00  INFO 15844 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:10:41.993-05:00  INFO 13964 --- [client-service] [main] c.t.c.ClientServiceApplication           : Starting ClientServiceApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 13964 (C:\Ejemplo-App\CursoJava\client-service\client-service\target\client-service-0.0.1-SNAPSHOT.jar started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:10:41.997-05:00  INFO 13964 --- [client-service] [main] c.t.c.ClientServiceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:10:43.090-05:00  INFO 13964 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:10:43.189-05:00  INFO 13964 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:10:44.067-05:00  INFO 13964 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-09-28T16:10:44.090-05:00  INFO 13964 --- [client-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-28T16:10:44.091-05:00  INFO 13964 --- [client-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-28T16:10:44.147-05:00  INFO 13964 --- [client-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-28T16:10:44.148-05:00  INFO 13964 --- [client-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2073 ms
+2025-09-28T16:10:44.424-05:00  INFO 13964 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:10:44.502-05:00  INFO 13964 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:10:44.552-05:00  INFO 13964 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:10:44.992-05:00  INFO 13964 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:10:45.081-05:00  INFO 13964 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:10:45.459-05:00  INFO 13964 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464ede1f
+2025-09-28T16:10:45.465-05:00  INFO 13964 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:10:45.658-05:00  INFO 13964 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:10:47.129-05:00  INFO 13964 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:10:47.195-05:00  INFO 13964 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:10:47.647-05:00  INFO 13964 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:10:48.471-05:00  WARN 13964 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:10:49.061-05:00  INFO 13964 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-09-28T16:10:49.078-05:00  INFO 13964 --- [client-service] [main] c.t.c.ClientServiceApplication           : Started ClientServiceApplication in 7.898 seconds (process running for 8.594)
+2025-09-28T16:12:16.821-05:00  INFO 13964 --- [client-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-28T16:12:17.146-05:00  INFO 13964 --- [client-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-28T16:12:17.150-05:00  INFO 13964 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:12:17.152-05:00  INFO 13964 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:12:17.156-05:00  INFO 13964 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:27:56.061-05:00  INFO 12016 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 12016 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:27:56.063-05:00  INFO 12016 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:27:56.757-05:00  INFO 12016 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:27:56.832-05:00  INFO 12016 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:27:57.261-05:00  INFO 12016 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:27:57.326-05:00  INFO 12016 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:27:57.374-05:00  INFO 12016 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:27:57.766-05:00  INFO 12016 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:27:57.811-05:00  INFO 12016 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:27:58.009-05:00  INFO 12016 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@faec277
+2025-09-28T16:27:58.011-05:00  INFO 12016 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:27:58.090-05:00  INFO 12016 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:27:59.081-05:00  INFO 12016 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:27:59.127-05:00  INFO 12016 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:27:59.425-05:00  INFO 12016 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:28:00.080-05:00  WARN 12016 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:28:00.469-05:00  INFO 12016 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 4.75 seconds (process running for 5.721)
+2025-09-28T16:28:00.977-05:00  INFO 12016 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:28:00.979-05:00  INFO 12016 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:28:00.993-05:00  INFO 12016 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:29:15.902-05:00  INFO 452 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 452 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:29:15.904-05:00  INFO 452 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:29:16.558-05:00  INFO 452 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:29:16.623-05:00  INFO 452 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:29:17.050-05:00  INFO 452 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:29:17.111-05:00  INFO 452 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:29:17.163-05:00  INFO 452 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:29:17.555-05:00  INFO 452 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:29:17.605-05:00  INFO 452 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:29:17.802-05:00  INFO 452 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58739e5e
+2025-09-28T16:29:17.803-05:00  INFO 452 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:29:17.890-05:00  INFO 452 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:29:18.824-05:00  INFO 452 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:29:18.864-05:00  INFO 452 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:29:19.137-05:00  INFO 452 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:29:19.761-05:00  WARN 452 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:29:20.143-05:00  INFO 452 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 4.585 seconds (process running for 5.537)
+2025-09-28T16:29:20.665-05:00  INFO 452 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:29:20.668-05:00  INFO 452 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:29:20.673-05:00  INFO 452 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:29:54.718-05:00  INFO 16276 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Starting ClientServiceApplicationTests using Java 17.0.16 with PID 16276 (started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:29:54.720-05:00  INFO 16276 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:29:55.506-05:00  INFO 16276 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:29:55.584-05:00  INFO 16276 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:29:56.075-05:00  INFO 16276 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:29:56.147-05:00  INFO 16276 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:29:56.216-05:00  INFO 16276 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:29:56.684-05:00  INFO 16276 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:29:56.747-05:00  INFO 16276 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:29:56.966-05:00  INFO 16276 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d24cdd9
+2025-09-28T16:29:56.969-05:00  INFO 16276 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:29:57.059-05:00  INFO 16276 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:29:58.208-05:00  INFO 16276 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:29:58.260-05:00  INFO 16276 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:29:58.603-05:00  INFO 16276 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:29:59.356-05:00  WARN 16276 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:29:59.813-05:00  INFO 16276 --- [client-service] [main] c.t.c.ClientServiceApplicationTests      : Started ClientServiceApplicationTests in 5.504 seconds (process running for 6.596)
+2025-09-28T16:30:00.467-05:00  INFO 16276 --- [client-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:30:00.472-05:00  INFO 16276 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-28T16:30:00.490-05:00  INFO 16276 --- [client-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-28T16:30:02.909-05:00  INFO 7548 --- [client-service] [main] c.t.c.ClientServiceApplication           : Starting ClientServiceApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 7548 (C:\Ejemplo-App\CursoJava\client-service\client-service\target\client-service-0.0.1-SNAPSHOT.jar started by Encalada Farias in C:\Ejemplo-App\CursoJava\client-service\client-service)
+2025-09-28T16:30:02.916-05:00  INFO 7548 --- [client-service] [main] c.t.c.ClientServiceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-28T16:30:04.028-05:00  INFO 7548 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-28T16:30:04.120-05:00  INFO 7548 --- [client-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2025-09-28T16:30:04.872-05:00  INFO 7548 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-09-28T16:30:04.893-05:00  INFO 7548 --- [client-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-28T16:30:04.894-05:00  INFO 7548 --- [client-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-28T16:30:04.954-05:00  INFO 7548 --- [client-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-28T16:30:04.955-05:00  INFO 7548 --- [client-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1957 ms
+2025-09-28T16:30:05.196-05:00  INFO 7548 --- [client-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-28T16:30:05.277-05:00  INFO 7548 --- [client-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-28T16:30:05.329-05:00  INFO 7548 --- [client-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-28T16:30:05.739-05:00  INFO 7548 --- [client-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-28T16:30:05.791-05:00  INFO 7548 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-28T16:30:06.082-05:00  INFO 7548 --- [client-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1934339
+2025-09-28T16:30:06.084-05:00  INFO 7548 --- [client-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-28T16:30:06.189-05:00  INFO 7548 --- [client-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-28T16:30:07.346-05:00  INFO 7548 --- [client-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-28T16:30:07.412-05:00  INFO 7548 --- [client-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-28T16:30:07.786-05:00  INFO 7548 --- [client-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-28T16:30:08.503-05:00  WARN 7548 --- [client-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-28T16:30:08.999-05:00  INFO 7548 --- [client-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-09-28T16:30:09.013-05:00  INFO 7548 --- [client-service] [main] c.t.c.ClientServiceApplication           : Started ClientServiceApplication in 6.893 seconds (process running for 7.514)
