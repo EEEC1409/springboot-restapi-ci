@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'eclipse-temurin' # Add this line
+          distribution: 'temurin' # Add this line # Add this line
       - name: Compilar y testear con Maven
         run: mvn clean verify
 
