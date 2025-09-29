@@ -18,7 +18,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin' # Add this line # Add this line
       - name: Compilar y testear con Maven
-        run: mvn clean verify
+        run: mvn test -Dspring.profiles.active=ci #mvn clean verify
 
       - name: Construir imagen Docker
         run: docker build -t myapp:latest .

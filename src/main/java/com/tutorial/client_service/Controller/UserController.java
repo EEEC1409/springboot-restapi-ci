@@ -8,20 +8,20 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/user-service")
+@RequestMapping("/api/user-service")
 public class UserController {
 
     @Autowired
     UserService userService;
 
 
-    @GetMapping("consulta")
+    @GetMapping("/consulta")
     public ResponseEntity<String> getCliente(@RequestParam(name = "user") String user,
                                              @RequestParam(name = "pass") String pass) {
         String entity = userService.getUser(user, pass);
         if(entity == null)
             return ResponseEntity.noContent().build();
-        return new ResponseEntity<String>(entity, HttpStatus.OK);
+        return ResponseEntity.ok(entity);
 
     }
 
