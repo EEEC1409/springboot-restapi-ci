@@ -25,5 +25,5 @@ jobs:
         run: echo "IMAGE_VERSION=${GITHUB_SHA::7}" >> $GITHUB_ENV
       - name: Construir imagen Docker
         run: |
-          docker build -t edisonenc1409/repositorio-credito:${IMAGE_VERSION}
+          docker build -t java-docker-cresa edisonenc1409/repositorio-credito:${IMAGE_VERSION}
           docker push edisonenc1409/repositorio-credito:${IMAGE_VERSION}
