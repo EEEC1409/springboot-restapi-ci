@@ -20,9 +20,9 @@ public class UserService {
             if (Objects.equals(userEntity.username, user) && Objects.equals(userEntity.password, pass))
                 return "Usuario existe";
             else
-                return "Usuario incorrecto";
+                return "Usuario/Clave incorrecto";
         } else
-            return null;
+            return "Usuario No Existe";
     }
 
     public UsersEntity createUser(UsersEntity user) {

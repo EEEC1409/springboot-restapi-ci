@@ -9,6 +9,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
 import static org.hamcrest.core.StringContains.containsString;
+import static org.hamcrest.core.StringContains.containsStringIgnoringCase;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -28,7 +29,7 @@ public class ClientServiceApplicationTests {
 
 
     @Test
-    void contextLoads() throws Exception {
+    void existUser() throws Exception {
 
         MvcResult result = this.mvc.perform(get("/api/user-service/consulta")
                         .param("user", "edisonenc1409")
@@ -36,7 +37,29 @@ public class ClientServiceApplicationTests {
                 )
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("Usuario existe"))).andReturn();
-        String content = result.getResponse().getContentAsString();
+
+    }
+    @Test
+    void userIncorrect() throws Exception {
+
+        MvcResult result = this.mvc.perform(get("/api/user-service/consulta")
+                        .param("user", "edisonenc1409")
+                        .param("pass", "lamismadeayer3")
+                )
+                .andExpect(status().isOk())
+                .andExpect(content().string(containsString("Usuario/Clave incorrecto"))).andReturn();
+
+    }
+    @Test
+    void noExistUser() throws Exception {
+
+        MvcResult result = this.mvc.perform(get("/api/user-service/consulta")
+                        .param("user", "edisonenc1401")
+                        .param("pass", "lamismadeayer2")
+                )
+                .andExpect(status().isOk())
+                .andExpect(content().string(containsString("Usuario No Existe"))).andReturn();
+
     }
 
 }
