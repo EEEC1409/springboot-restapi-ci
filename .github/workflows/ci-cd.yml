@@ -37,7 +37,7 @@ jobs:
      - name: Set profile according to branch
        id: profile
        run: |
-         if [[ "${{ github.ref }}" == "refs/heads/master" ]]; then
+         if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
            echo "profile=prod" >> $GITHUB_OUTPUT
            echo "tag=prod" >> $GITHUB_OUTPUT
          elif [[ "${{ github.ref }}" == "refs/heads/test" ]]; then
@@ -50,9 +50,15 @@ jobs:
      - name: Build Docker image
        run: |
            docker build -t edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }} .
-           docker push edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }}
+     - name: Login to DockerHub
+       run:
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+     - name: push to DockerHub
+       run:
+          docker push edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }}
      - name: Run container (only on test or prod)
-       if: ${{ github.ref == 'refs/heads/test' || github.ref == 'refs/heads/master' }}
+       if: ${{ github.ref == 'refs/heads/test' || github.ref == 'refs/heads/main' }}
        run: |
            docker run -d \
              -e SPRING_PROFILES_ACTIVE=${{ steps.profile.outputs.profile }} \
