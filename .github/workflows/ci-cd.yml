@@ -2,7 +2,10 @@ name: CI/CD Spring Boot + Docker
 
 on:
   push:
-    branches: [main]
+    branches:
+      - imagen-prod
+      - test
+      - main
 
 jobs:
   build:
@@ -18,12 +21,40 @@ jobs:
           java-version: '17'
           distribution: 'temurin' # Add this line # Add this line
       - name: Compilar y testear con Maven
-        run: mvn test -Dspring.profiles.active=ci #mvn clean verify
-      - name: Login en Docker Hub
-        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-      - name: Set image version
-        run: echo "IMAGE_VERSION=${GITHUB_SHA::7}" >> $GITHUB_ENV
-      - name: Construir imagen Docker
-        run: |
-          docker build -t  edisonenc1409/repositorio-credito:${IMAGE_VERSION} .
-          docker push edisonenc1409/repositorio-credito:${IMAGE_VERSION}
+        run: mvn clean package -DskipTests #mvn test -Dspring.profiles.active=ci #mvn clean verify
+      - name: Run tests
+        run: mvn test
+
+  docker-build-and-deploy:
+   needs: build-and-test
+   runs-on: ubuntu-latest
+   steps:
+     - uses: actions/checkout@v4
+
+     - name: Set up Docker Buildx
+       uses: docker/setup-buildx-action@v4
+
+     - name: Set profile according to branch
+       id: profile
+       run: |
+         if [[ "${{ github.ref }}" == "refs/heads/master" ]]; then
+           echo "profile=prod" >> $GITHUB_OUTPUT
+           echo "tag=prod" >> $GITHUB_OUTPUT
+         elif [[ "${{ github.ref }}" == "refs/heads/test" ]]; then
+           echo "profile=test" >> $GITHUB_OUTPUT
+           echo "tag=test" >> $GITHUB_OUTPUT
+         else
+           echo "profile=dev" >> $GITHUB_OUTPUT
+           echo "tag=dev" >> $GITHUB_OUTPUT
+         fi
+     - name: Build Docker image
+       run: |
+           docker build -t edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }} .
+           docker push edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }}
+     - name: Run container (only on test or prod)
+       if: ${{ github.ref == 'refs/heads/test' || github.ref == 'refs/heads/master' }}
+       run: |
+           docker run -d \
+             -e SPRING_PROFILES_ACTIVE=${{ steps.profile.outputs.profile }} \
+             -p 8080:8001 \
+             edisonenc1409/repositorio-credito:${{ steps.profile.outputs.tag }}
